@@ -17,7 +17,7 @@
     <body>
         <!-- Navigation  -->
         <div class="text-center text-2xl text-green-600">@include('layouts.messages')</div>
-        <div id="navDesktop" class="z-40 fixed bg-green-700 w-full lg:grid grid-cols-5 gap-3 shadow lg:px-24 px-8 py-4 flex justify-between items-center">
+        <div id="navDesktop" class="z-40 fixed bg-white w-full lg:grid grid-cols-5 gap-3 shadow lg:px-24 px-8 py-4 flex justify-between items-center">
             <div class="flex justify-between w-full items-center">
                 <div id="menu" class="lg:hidden cursor-pointer lg:ml-auto">
                     <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
@@ -31,12 +31,13 @@
                 </div>
             </div>
             <div class="lg:col-span-4 hidden lg:block">
-                <nav class="lg:flex justify-between list-none uppercase font-medium">
-                    <li class="py-1 hover:text-green-600 text-white"><a href="#">Home</a></li>
-                    <li class="py-1 hover:text-green-600 text-white"><a href="#">About Us</a></li>
-                    <li class="py-1 hover:text-green-600 text-white"><a href="#">Aims and Objectives</a></li>
-                    <li class="py-1 hover:text-green-600 text-white"><a href="#">Our Mission</a></li>
-                    <li class="py-1 hover:text-green-600 text-white"><a href="#">Contact Us</a></li>
+                <nav class="lg:flex justify-between list-none uppercase font-medium items-center">
+                    <li class="py-1 hover:text-green-600 text-gray-700"><a href="/">Home</a></li>
+                    <li class="py-1 hover:text-green-600 text-gray-700"><a href="/#about-us">About Us</a></li>
+                    <li class="py-1 hover:text-green-600 text-gray-700"><a href="#">Board of Trustees</a></li>
+                    <li class="py-1 hover:text-green-600 text-gray-700"><a href="#">Future Projects</a></li>
+                    <li class="py-1 hover:text-green-600 text-gray-700"><a href="#">Contact Us</a></li>
+                    <li class="hover:text-green-600 text-white bg-red-700 rounded px-3 py-3"><a href="#">DONATE NOW</a></li>
                 </nav>
             </div>
         </div>
@@ -94,62 +95,69 @@
         <!-- End of Body Content  -->
 
         <!-- Footer  -->
-        <div class="relative top-24">
+        <div class="relative top-12">
             <div id="footer" class="bg-green-700 py-12 px-8 lg:px-24 lg:grid grid-cols-5 gap-8 text-white">
                 <div class="col-span-2">
                     <div>
                         <!-- <img class="w-28 mx-auto lg:mx-0" src="{{ asset('images/bowdi.png') }}" alt="BOWDI Logo"> -->
                         <h1 class="text-3xl font-bold mb-4">Office Address</h1>
                         <p class="py-1 text-left lg:w-2/3 w-full">
-                            Plot 130 Tampul Road, Molai Road GRA Extension Maiduguri, Borno State Nigeria
+                            No. 7, Suite 9 Maiduguri Road, Kano State Nigeria
                         </p>
                     </div>
                     <div class="mt-4">
                         <h1 class="text-3xl font-bold mb-4">Vision</h1>
-                        <p class="py-1 lg:w-2/3 w-full text-justify">
-                            BOWDI's vision is to nurture developed and resilient communities of resourceful, independent, educated women, girls and boys with good vision and services. Reduce poverty and Sexual/Gender Based Violence
+                        <p class="py-1 lg:w-2/3 w-full">
+                            To work as an NGO towards improving the condition of the needy and the less privileged members of the society through social welfare and philanthropic services in hospitals, prison yeards, remand homes, orphanages, grave yeards and similar institutions
                         </p>
                     </div>
                 </div>
                 <div class="col-span-2">
-                    <h1 class="text-3xl font-bold mb-4">Our Partners</h1>
-                    <nav class="list-none text-white">
-                        <li class="py-1 hover:text-gray-800">
-                            <a class="flex items-center py-1" href="https://www.unhcr.org/">
-                                United Nations High Refugee (UNHCR)
-                            </a>
-                        </li>
-                        <li class="py-1 hover:text-gray-800">
-                            <a class="flex items-center py-1" href="#">
-                                Federal Republic of Germany
-                            </a>
-                        </li>
-                        <li class="py-1 hover:text-gray-800">
-                            <a class="flex items-center py-1" href="https://www.rescue.org/">
-                                International Rescue Committee (IRC)
-                            </a>
-                        </li>
-                        <li class="py-1 hover:text-gray-800">
-                            <a class="flex items-center py-1" href="#">
-                                Educational Crisis Response (ECR)
-                            </a>
-                        </li>
-                        <li class="py-1 hover:text-gray-800">
-                            <a class="flex items-center py-1" href="http://www.bosema.gov.ng/">
-                                State Emergency Management Agency (SEMA)
-                            </a>
-                        </li>
-                        <li class="py-1 hover:text-gray-800">
-                            <a class="flex items-center py-1" href="https://www1.wfp.org/">
-                                World Food Program (WFP)
-                            </a>
-                        </li>
-                        <li class="py-1 hover:text-gray-800">
-                            <a class="flex items-center py-1" href="https://www.undp.org/">
-                                United Nations Development Programme (UNDP)
-                            </a>
-                        </li>
-                    </nav>
+                    <div>
+                        <h1 class="text-3xl font-bold mb-4">Navigation</h1>
+                        <nav class="list-none text-white">
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="/">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="/#about-us">
+                                    <span>About Us</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="/#aims-objectives">
+                                    <span>Aims and Objectives</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="/#mission">
+                                    <span>Our Mission</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span>Board of Trustees</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span>Future Projects</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span>Contact Us</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span>Donate Now</span>
+                                </a>
+                            </li>
+                        </nav>
+                    </div>
                 </div>
                 <div class="col-span-1">    
                     <div>
@@ -181,42 +189,12 @@
                             </li>
                         </nav>
                     </div>
-                    <div class="mt-5">
-                        <h1 class="text-3xl font-bold mb-4">Navigation</h1>
-                        <nav class="list-none text-white">
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
-                                    <span>Home</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
-                                    <span>About Us</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
-                                    <span>Aims and Objectives</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
-                                    <span>Our Mission</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
-                                    <span>Contact Us</span>
-                                </a>
-                            </li>
-                        </nav>
-                    </div>
                 </div>
             </div>
-            <div class="py-7 text-center sm:text-sm">
+            <div class="py-7 text-center sm:text-sm bg-green-800 text-white">
                 <footer>
-                    Designed & Developed by <a class="hover:text-green-600" href="https://teampiccolo.com">Team Piccolo</a><br>
-                    Copyright © 2022-@php echo date('Y') @endphp Binaail Masaajid Foundation. All Rights Reserved 
+                    Designed & Developed by <a class="hover:text-green-600 " href="https://teampiccolo.com">Team Piccolo</a><br>
+                    Copyright © @php echo date('Y') @endphp Binaail Masaajid Foundation. All Rights Reserved 
                 </footer>
             </div>
         </div>
