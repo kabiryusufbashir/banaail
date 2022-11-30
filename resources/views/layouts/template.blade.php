@@ -35,8 +35,8 @@
                     <li class="py-1 hover:text-green-600 text-gray-700"><a href="/">Home</a></li>
                     <li class="py-1 hover:text-green-600 text-gray-700"><a href="/#about-us">About Us</a></li>
                     <li class="py-1 hover:text-green-600 text-gray-700"><a href="#">Board of Trustees</a></li>
-                    <li class="py-1 hover:text-green-600 text-gray-700"><a href="#">Future Projects</a></li>
-                    <li class="py-1 hover:text-green-600 text-gray-700"><a href="#">Contact Us</a></li>
+                    <li class="py-1 hover:text-green-600 text-gray-700"><a href="/future-projects">Future Projects</a></li>
+                    <li class="py-1 hover:text-green-600 text-gray-700"><a href="/contact">Contact Us</a></li>
                     <li class="hover:text-green-600 text-white bg-red-700 rounded px-3 py-3"><a href="#">DONATE NOW</a></li>
                 </nav>
             </div>
@@ -45,7 +45,7 @@
         <div id="navMobile" class="w-full fixed h-screen z-30 hidden bg-white py-8">
             <div class="list-none p-2 text-xl border-t bg-white pt-20">
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
+                    <a href="/" class="flex justify-between items-center">
                         <span>Home</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-house text-2xl"></i></span>
@@ -54,32 +54,31 @@
                 <hr>
                 <li class="py-3 px-8">
                     <a href="#" class="flex justify-between items-center">
-                        <span>About Us</span>
+                        <span>Board of Trustees</span>
                         &nbsp;&nbsp;
-                        <span><i class="fa-solid fa-building text-2xl"></i></span>
+                        <span><i class="fa-solid fa-house text-2xl"></i></span>
                     </a>
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
-                        <span>Aims and Objectives</span>
-                        &nbsp;&nbsp;
-                        <span><i class="fa-solid fa-person-circle-question text-2xl"></i></span>
-
-                    </a>
-                </li>
-                <hr>
-                <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between border-b-1 items-center">
-                        <span>Our Mission</span>
+                    <a href="/future-projects" class="flex justify-between border-b-1 items-center">
+                        <span>Future Project</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-briefcase text-2xl"></i></span>
                     </a>
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
+                    <a href="/contact" class="flex justify-between items-center">
                         <span>Contact Us</span>
+                        &nbsp;&nbsp;
+                        <span><i class="fa-solid fa-headset text-2xl"></i></span>
+                    </a>
+                </li>
+                <hr>
+                <li class="py-3 px-8">
+                    <a href="#" class="flex justify-between items-center">
+                        <span>Donate Now</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-headset text-2xl"></i></span>
                     </a>
@@ -142,12 +141,12 @@
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1" href="/future-projects">
                                     <span>Future Projects</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1" href="/contact">
                                     <span>Contact Us</span>
                                 </a>
                             </li>

@@ -47,6 +47,9 @@
         <!-- Aims And Objectives  -->
         <div id="aims-objectives" class="bg-white mt-8 py-8">
             <div class="text-center text-2xl font-medium py-6">Aims and Objectives</div>
+            <div class="pb-6">
+                <img class="w-24 mx-auto" src="{{ asset('images/objective.png') }}" alt="Objectives">
+            </div>
             <div class="lg:px-24 px-8 mx-auto">
                 <div class="grid grid-cols-3 gap-6 py-2 text-center">
                     <div>
@@ -74,6 +77,9 @@
         <!-- Mission  -->
         <div id="mission" class="bg-gray-100 mt-8 pt-8 pb-16">
             <div class="text-center text-2xl font-medium py-6">Our Mission</div>
+            <div class="pb-6">
+                <img class="w-24 mx-auto" src="{{ asset('images/vision.png') }}" alt="Vision">
+            </div>
             <div class="lg:px-24 px-8 mx-auto">
                 <div class="grid grid-cols-3 gap-6 py-2 text-center">
                     <div>
