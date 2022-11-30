@@ -7,7 +7,7 @@
 @section('body-content')
     <!-- Banner -->
     <div>
-        <img class="object-cover w-full sm:h-screen lg:h-auto" src="{{ asset('images/bg-2.jpg') }}" alt="BINAAIL MASAAJID WAL MADAARIS FOUDNDATION">
+        <img id="banner-img" class="object-cover w-full sm:h-screen lg:h-auto" src="{{ asset('images/bg-2.jpg') }}" alt="BINAAIL MASAAJID WAL MADAARIS FOUDNDATION">
         <div class="absolute lg:top-48 top-52">
             <div class="text-white font-extrabold p-8 bg-green-700" id="slogan">        
                 <p class="flex justify-center">BINAAIL MASAAJID WAL MADAARIS FOUDNDATION</p>
@@ -51,7 +51,7 @@
                 <img class="w-24 mx-auto" src="{{ asset('images/objective.png') }}" alt="Objectives">
             </div>
             <div class="lg:px-24 px-8 mx-auto">
-                <div class="grid grid-cols-3 gap-6 py-2 text-center">
+                <div class="lg:grid grid-cols-3 gap-6 py-2 text-center">
                     <div>
                         To work as an NGO towards improving the condition of the needy and the less privileged members of the society through social welfare and philantropic services in hospitals, prison yards, remand homes, orphanages, grave yards and similar institutions
                     </div>
@@ -81,23 +81,23 @@
                 <img class="w-24 mx-auto" src="{{ asset('images/vision.png') }}" alt="Vision">
             </div>
             <div class="lg:px-24 px-8 mx-auto">
-                <div class="grid grid-cols-3 gap-6 py-2 text-center">
-                    <div>
+                <div class="lg:grid grid-cols-3 gap-6 py-2 text-center">
+                    <div class="my-2">
                         To source for funds from voluntary donors for the purpose of building, rehabilitating and re-structuring Islamic infrastructure in Nigeria, thereby ensuring conducive service learning and effective drug rehabilitation environment
                     </div>
-                    <div>
+                    <div class="my-2">
                         To encourage Muslims and Islamic organizations to provide funding for the cause of Allah and for the service of Islamic communities 
                     </div>
-                    <div>
+                    <div class="my-2">
                         To provide an honest institution where all funds received will be utilized honestly for the objectives of the Foundation and outmost satisfaction of the donors
                     </div>
-                    <div>
+                    <div class="my-2">
                         To promote unity and a sense of purpose to all Muslims in Nigeria and beyond
                     </div>
-                    <div>
+                    <div class="my-2">
                         To assist the poor, orphans and the less privileged members of the society thereby giving them a sense of honor and belonging 
                     </div>
-                    <div>
+                    <div class="my-2">
                         To ensure the prudent utilization of all donated funds and be fully transparent and accountable in whatever we do 
                     </div>
                 </div>

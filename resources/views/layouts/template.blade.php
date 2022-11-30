@@ -20,10 +20,10 @@
         <div id="navDesktop" class="z-40 fixed bg-white w-full lg:grid grid-cols-5 gap-3 shadow lg:px-24 px-8 py-4 flex justify-between items-center">
             <div class="flex justify-between w-full items-center">
                 <div id="menu" class="lg:hidden cursor-pointer lg:ml-auto">
-                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    <svg class="w-10 h-10 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                 </div>
                 <div class="">
-                    <a href="#">
+                    <a href="/">
                         <div class="lg:col-span-1">
                             <img class="w-14 lg:w-16 lg:ml-0" src="{{ asset('images/logo.png') }}" alt="Binaail Masaajid Foundation logo">
                         </div>
@@ -43,7 +43,7 @@
         </div>
         <!-- Mobile Nav -->
         <div id="navMobile" class="w-full fixed h-screen z-30 hidden bg-white py-8">
-            <div class="list-none p-2 text-xl border-t bg-white pt-20">
+            <div class="list-none p-2 text-sm border-t bg-white pt-20">
                 <li class="py-3 px-8">
                     <a href="/" class="flex justify-between items-center">
                         <span>Home</span>
@@ -56,7 +56,7 @@
                     <a href="#" class="flex justify-between items-center">
                         <span>Board of Trustees</span>
                         &nbsp;&nbsp;
-                        <span><i class="fa-solid fa-house text-2xl"></i></span>
+                        <span><i class="fa-solid fa-users text-2xl"></i></span>
                     </a>
                 </li>
                 <hr>
@@ -79,8 +79,7 @@
                 <li class="py-3 px-8">
                     <a href="#" class="flex justify-between items-center">
                         <span>Donate Now</span>
-                        &nbsp;&nbsp;
-                        <span><i class="fa-solid fa-headset text-2xl"></i></span>
+                        <span><i class="fa-solid fa-credit-card text-2xl"></i></span>
                     </a>
                 </li>
             </div>
@@ -190,7 +189,7 @@
                     </div>
                 </div>
             </div>
-            <div class="py-7 text-center sm:text-sm bg-green-800 text-white">
+            <div class="py-7 text-center text-xs bg-green-800 text-white">
                 <footer>
                     Designed & Developed by <a class="hover:text-green-600 " href="https://teampiccolo.com">Team Piccolo</a><br>
                     Copyright © @php echo date('Y') @endphp Binaail Masaajid Foundation. All Rights Reserved 

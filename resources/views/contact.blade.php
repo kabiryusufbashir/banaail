@@ -7,7 +7,7 @@
 @section('body-content')
     <!-- Banner -->
     <div>
-        <img class="object-cover w-full sm:h-screen lg:h-auto" src="{{ asset('images/bg-1.jpg') }}" alt="BINAAIL MASAAJID WAL MADAARIS FOUDNDATION">
+        <img id="banner-img" class="object-cover w-full sm:h-screen lg:h-auto" src="{{ asset('images/bg-1.jpg') }}" alt="BINAAIL MASAAJID WAL MADAARIS FOUDNDATION">
         <div class="absolute lg:top-48 top-52 right-0">
             <div class="text-white font-extrabold py-8 px-24 bg-green-700" id="slogan">        
                 <p class="flex justify-center">CONTACT US</p>
@@ -23,7 +23,7 @@
                 <img class="w-24 mx-auto" src="{{ asset('images/contact.png') }}" alt="Contact Us">
             </div>
             <div class="lg:px-24 px-8 mx-auto">
-                <div class="lg:grid grid-cols-4 gap-4 py-16">
+                <div class="lg:grid grid-cols-4 gap-4 py-16 text-xs lg:text-sm">
                     <div class="col-span-1">
                         <div class="mb-3 flex">
                             <span><i class="fa-solid fa-house"></i></span>
