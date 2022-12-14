@@ -10,7 +10,7 @@
         <img id="banner-img" class="object-cover w-full sm:h-screen lg:h-auto" src="{{ asset('images/bg-3.jpg') }}" alt="BINAAIL MASAAJID WAL MADAARIS FOUDNDATION">
         <div class="absolute lg:top-48 top-52 right-0">
             <div class="text-white font-extrabold py-8 px-24 bg-green-700" id="slogan">        
-                <p class="flex justify-center">FUTURE PROJECT</p>
+                <p class="flex justify-center">FUTURE PROJECTS</p>
             </div>
         </div>
     </div>

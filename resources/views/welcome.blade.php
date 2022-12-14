@@ -1,16 +1,16 @@
 @extends('layouts.template')
 
 @section('page-title')
-    Home - Binaail Masaajid Foundation
+    Home - Binaa'il Masaajid Foundation
 @endsection
 
 @section('body-content')
     <!-- Banner -->
     <div>
-        <img id="banner-img" class="object-cover w-full sm:h-screen lg:h-auto" src="{{ asset('images/bg-2.jpg') }}" alt="BINAAIL MASAAJID WAL MADAARIS FOUDNDATION">
+        <img id="banner-img" class="object-cover w-full sm:h-screen lg:h-auto" src="{{ asset('images/bg-2.jpg') }}" alt="Binaa'il MASAAJID WAL MADAARIS FOUDNDATION">
         <div class="absolute lg:top-48 top-52">
             <div class="text-white font-extrabold p-8 bg-green-700" id="slogan">        
-                <p class="flex justify-center">BINAAIL MASAAJID WAL MADAARIS FOUDNDATION</p>
+                <p class="flex justify-center">BINAA'IL MASAAJID WAL MADAARIS FOUDNDATION</p>
             </div>
         </div>
     </div>
@@ -20,12 +20,12 @@
         <div id="about-us" class="lg:px-24 px-8 mt-8">
             <!-- logo  -->
             <div>
-                <img class="w-64 mx-auto" src="{{ asset('images/banaail.png') }}" alt="BINAAIL MASAAJID WAL MADAARIS FOUDNDATION LOGO">
+                <img class="w-64 mx-auto" src="{{ asset('images/banaail.png') }}" alt="Binaa'il MASAAJID WAL MADAARIS FOUDNDATION LOGO">
             </div>
             <!-- About Us  -->
             <div class="text-center lg:w-2/3 mx-auto">
                 <p class="py-3">
-                    Binaail Masaajid Wal Madaaris Foundation is basically an Islamic Non-Governmental Organisation (NGO), registered on 9th January 2014 with corporate affairs commission
+                    Binaa'il Masaajid Wal Madaaris Foundation is basically an Islamic Non-Governmental Organisation (NGO), registered on 9th January 2014 with corporate affairs commission
                 </p>
                 <p class="py-3">
                     It is temporarily headquartered at No. 7 Suite 9 Maiduguri Road Kano
