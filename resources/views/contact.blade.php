@@ -1,5 +1,10 @@
 @extends('layouts.template')
 
+@section('page-meta')
+    <meta name="description" content="Binaa'il Masaajid Wal Madaaris Foundation is basically an Islamic Non-Governmental Organisation (NGO), registered on 9th January 2014 with corporate affairs commission">
+    <meta name="keywords" content="Masjid, Kano, NGO, Donate, Build, Help, Call, Contact">
+@endsection
+
 @section('page-title')
     Contact us - Binaail Masaajid Foundation
 @endsection

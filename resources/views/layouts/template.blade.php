@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="{{ asset('css/app.css')}}" rel="stylesheet">
         <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/production.css') }}" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.ico')}}"/>
         <!-- CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -34,7 +35,7 @@
                 <nav class="lg:flex justify-between list-none uppercase font-medium items-center">
                     <li class="py-1 hover:text-green-600 text-gray-700"><a href="/">Home</a></li>
                     <li class="py-1 hover:text-green-600 text-gray-700"><a href="/#about-us">About Us</a></li>
-                    <li class="py-1 hover:text-green-600 text-gray-700"><a href="#">Board of Trustees</a></li>
+                    <li class="py-1 hover:text-green-600 text-gray-700"><a href="/bot">Board of Trustees</a></li>
                     <li class="py-1 hover:text-green-600 text-gray-700"><a href="/future-projects">Future Projects</a></li>
                     <li class="py-1 hover:text-green-600 text-gray-700"><a href="/contact">Contact Us</a></li>
                     <li class="hover:text-green-600 text-white bg-red-700 rounded px-3 py-3"><a href="#">DONATE NOW</a></li>

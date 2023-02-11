@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/bot', function () {
+    return view('bot');
+});
+
 Route::get('/future-projects', function () {
     return view('future_project');
 });
