@@ -108,5 +108,44 @@
                 </div>
             </div>
         </div>
+        <!-- Project  -->
+        <div class="bg-white mt-8 pt-8 pb-16">
+            <div class="text-center text-2xl font-medium py-6">Projects Funded</div>
+            <div class="lg:px-24 px-8 mx-auto">
+                <!-- 001 -->
+                <div class="my-6">
+                    <div class="pb-6">
+                        <img class="lg:w-1/2 w-full mx-auto" src="{{ asset('images/project-001.jpg') }}" alt="Future Projects">
+                    </div>
+                    <div>
+                        <p class="text-center lg:text-3xl text-sm">
+                            Internally funded land for the drug rehabilitation center at  Nasarawa Village, Danbatta, Kano State, Nigeria
+                        </p>
+                    </div>
+                </div>
+                <!-- 002 -->
+                <div class="my-6">
+                    <div class="pb-6">
+                        <img class="lg:w-1/2 w-full mx-auto" src="{{ asset('images/project-002.jpg') }}" alt="Future Projects">
+                    </div>
+                    <div>
+                        <p class="text-center lg:text-3xl text-sm">
+                            Some of the projects funded and co funded by the foundation.
+                        </p>
+                    </div>
+                </div>
+                <!-- 003 -->
+                <div class="my-6">
+                    <div class="pb-6">
+                        <img class="lg:w-1/2 w-full mx-auto" src="{{ asset('images/project-003.jpg') }}" alt="Future Projects">
+                    </div>
+                    <div>
+                        <p class="text-center lg:text-3xl text-sm">
+                            Some of the projects funded and co funded by the foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 @endsection

@@ -54,7 +54,7 @@
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
+                    <a href="/bot" class="flex justify-between items-center">
                         <span>Board of Trustees</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-users text-2xl"></i></span>
