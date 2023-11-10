@@ -25,6 +25,10 @@ Route::get('/future-projects', function () {
     return view('future_project');
 });
 
+Route::get('/donate', function () {
+    return view('donate');
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });

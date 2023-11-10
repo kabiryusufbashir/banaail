@@ -136,7 +136,7 @@
                     <!-- Hajiya Fatima MaiKore – Member BOT -->
                     <div class="shadow p-3 bg-white">
                         <div class="text-center py-4">
-                            <div class="mb-3"><img src="{{ asset('images/no_image.jpg') }}" alt="Hajiya Fatima MaiKore – Member BOT" class="w-64 mx-auto rounded-full"></div>
+                            <div class="mb-3"><img src="{{ asset('images/008.jpg') }}" alt="Hajiya Fatima MaiKore – Member BOT" class="w-64 mx-auto rounded-full"></div>
                             <div class="mb-3 text-2xl">Hajiya Fatima MaiKore</div>
                             <div class="mb-3"><b>Member BOT</b></div>
                         </div>

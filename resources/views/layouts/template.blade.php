@@ -38,7 +38,7 @@
                     <li class="py-1 hover:text-green-600 text-gray-700"><a href="/bot">Board of Trustees</a></li>
                     <li class="py-1 hover:text-green-600 text-gray-700"><a href="/future-projects">Future Projects</a></li>
                     <li class="py-1 hover:text-green-600 text-gray-700"><a href="/contact">Contact Us</a></li>
-                    <li class="hover:text-green-600 text-white bg-red-700 rounded px-3 py-3"><a href="#">DONATE NOW</a></li>
+                    <li class="hover:text-green-600 text-white bg-red-700 rounded px-3 py-3"><a href="/donate">DONATE NOW</a></li>
                 </nav>
             </div>
         </div>
