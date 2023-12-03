@@ -78,7 +78,7 @@
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
+                    <a href="/donate" class="flex justify-between items-center">
                         <span>Donate Now</span>
                         <span><i class="fa-solid fa-credit-card text-2xl"></i></span>
                     </a>
