@@ -136,7 +136,7 @@
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1" href="/bot">
                                     <span>Board of Trustees</span>
                                 </a>
                             </li>
@@ -151,7 +151,7 @@
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1" href="/donate">
                                     <span>Donate Now</span>
                                 </a>
                             </li>
