@@ -37,8 +37,9 @@
                 </p>
             </div>
         </div>
+        
         <!-- About Us  -->
-        <div class="bg-gray-100 mt-8 py-8">
+        <div id="about-us" class="bg-gray-100 mt-8 py-8">
             <div class="text-center text-2xl font-medium py-6">About Us</div>
             <div class="lg:px-24 px-8 lg:w-2/3 mx-auto">
                 <p class="py-2 text-center">
@@ -49,41 +50,25 @@
                 </p>
             </div>
         </div>
-        <!-- Aims And Objectives  -->
-        <div id="aims-objectives" class="bg-white mt-8 py-8">
-            <div class="text-center text-2xl font-medium py-6">Aims and Objectives</div>
+
+        <!-- Vision  -->
+        <div id="vision" class="mt-8 py-8">
+            <div class="text-center text-2xl font-medium py-6">Vision</div>
             <div class="pb-6">
-                <img class="w-24 mx-auto" src="{{ asset('images/objective.png') }}" alt="Objectives">
+                <img class="w-24 mx-auto" src="{{ asset('images/mission.png') }}" alt="Vision">
             </div>
-            <div class="lg:px-24 px-8 mx-auto">
-                <div class="lg:grid grid-cols-3 gap-6 py-2 text-center">
-                    <div>
-                        To work as an NGO towards improving the condition of the needy and the less privileged members of the society through social welfare and philantropic services in hospitals, prison yards, remand homes, orphanages, grave yards and similar institutions
-                    </div>
-                    <div>
-                        To carry the great message of Islam, disseminate true knowledge of the Holy Qur'an and the Hadiths of the Holy Prophet Muhammad (SAW) to all people
-                    </div>
-                    <div>
-                        To promote the religious, moral and social advancement of members and all Muslims in general
-                    </div>
-                    <div>
-                        To support and provide sound education to the Muslim Ummah and to propagate Islamic and Qur'anic general knowledge
-                    </div>
-                    <div>
-                        To receive and disburse in accordance with the above objectives of the constitution of the organization, donations, gifts and grants from reputable individuals, Islamic organizations, countries, nations, communities and private institutions such as the Islamic Bank among others    
-                    </div>
-                    <div>
-                        To promote the values of Islam and to serve as a medium for Muslims unity and peace co-existence. <br>
-                        To build, maintain, repair and rehabilitate Masaajid, Islamic schools, institutions and other related infrastruture in Nigeria  
-                    </div>
-                </div>
+            <div class="lg:px-24 px-8 lg:w-2/3 mx-auto">
+                <p class="py-2 text-center">
+                    To work as an NGO towards improving the condition of the needy and the less privileged members of the society through social welfare and philantropic services in hospitals, prison yards, remand homes, orphanages, grave yards and similar institutions
+                </p>
             </div>
         </div>
+
         <!-- Mission  -->
         <div id="mission" class="bg-gray-100 mt-8 pt-8 pb-16">
             <div class="text-center text-2xl font-medium py-6">Our Mission</div>
             <div class="pb-6">
-                <img class="w-24 mx-auto" src="{{ asset('images/vision.png') }}" alt="Vision">
+                <img class="w-24 mx-auto" src="{{ asset('images/vision.png') }}" alt="Mission">
             </div>
             <div class="lg:px-24 px-8 mx-auto">
                 <div class="lg:grid grid-cols-3 gap-6 py-2 text-center">
@@ -108,8 +93,37 @@
                 </div>
             </div>
         </div>
+
+        <!-- Aims And Objectives  -->
+        <div id="aims-objectives" class="bg-white mt-8 py-8">
+            <div class="text-center text-2xl font-medium py-6">Aims and Objectives</div>
+            <div class="pb-6">
+                <img class="w-24 mx-auto" src="{{ asset('images/objective.png') }}" alt="Objectives">
+            </div>
+            <div class="lg:px-24 px-8 mx-auto">
+                <div class="lg:grid grid-cols-3 gap-6 py-2 text-center">
+                    <div>
+                        To carry the great message of Islam, disseminate true knowledge of the Holy Qur'an and the Hadiths of the Holy Prophet Muhammad (SAW) to all people
+                    </div>
+                    <div>
+                        To promote the religious, moral and social advancement of members and all Muslims in general
+                    </div>
+                    <div>
+                        To support and provide sound education to the Muslim Ummah and to propagate Islamic and Qur'anic general knowledge
+                    </div>
+                    <div>
+                        To receive and disburse in accordance with the above objectives of the constitution of the organization, donations, gifts and grants from reputable individuals, Islamic organizations, countries, nations, communities and private institutions such as the Islamic Bank among others    
+                    </div>
+                    <div>
+                        To promote the values of Islam and to serve as a medium for Muslims unity and peace co-existence. <br>
+                        To build, maintain, repair and rehabilitate Masaajid, Islamic schools, institutions and other related infrastruture in Nigeria  
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Project  -->
-        <div class="bg-white mt-8 pt-8 pb-16">
+        <div class="bg-gray-100 mt-8 pt-8 pb-16">
             <div class="text-center text-2xl font-medium py-6">Projects Funded</div>
             <div class="lg:px-24 px-8 mx-auto">
                 <!-- 001 -->

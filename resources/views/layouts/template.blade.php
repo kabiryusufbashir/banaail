@@ -115,46 +115,71 @@
                     <div>
                         <h1 class="text-3xl font-bold mb-4">Navigation</h1>
                         <nav class="list-none text-white">
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/">
-                                    <span>Home</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/#about-us">
-                                    <span>About Us</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/#aims-objectives">
-                                    <span>Aims and Objectives</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/#mission">
-                                    <span>Our Mission</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/bot">
-                                    <span>Board of Trustees</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/future-projects">
-                                    <span>Future Projects</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/contact">
-                                    <span>Contact Us</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/donate">
-                                    <span>Donate Now</span>
-                                </a>
-                            </li>
+                            <div class="lg:grid grid-cols-2 gap-4">
+                                <div>
+                                    <li class="hover:text-gray-800">
+                                        <a class="flex items-center py-1" href="/">
+                                            <span>Home</span>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="hover:text-gray-800">
+                                        <a class="flex items-center py-1" href="/#about-us">
+                                            <span>About Us</span>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="hover:text-gray-800">
+                                        <a class="flex items-center py-1" href="/#vision">
+                                            <span>Our Vision</span>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="hover:text-gray-800">
+                                        <a class="flex items-center py-1" href="/#mission">
+                                            <span>Our Mission</span>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="hover:text-gray-800">
+                                        <a class="flex items-center py-1" href="/#aims-objectives">
+                                            <span>Aims and Objectives</span>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="hover:text-gray-800">
+                                        <a class="flex items-center py-1" href="/bot">
+                                            <span>Board of Trustees</span>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="hover:text-gray-800">
+                                        <a class="flex items-center py-1" href="/future-projects">
+                                            <span>Future Projects</span>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="hover:text-gray-800">
+                                        <a class="flex items-center py-1" href="/contact">
+                                            <span>Contact Us</span>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="hover:text-gray-800">
+                                        <a class="flex items-center py-1" href="/donate">
+                                            <span>Donate Now</span>
+                                        </a>
+                                    </li>
+                                </div>
+                            </div>
                         </nav>
                     </div>
                 </div>
@@ -163,19 +188,19 @@
                         <h1 class="text-3xl font-bold mb-4">Follow Us</h1>
                         <nav class="list-none text-white">
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="https://twitter.com/bornowomendevt">
+                                <a class="flex items-center py-1" href="#">
                                     <span><i class="fa-brands fa-twitter text-xl"></i></span> &nbsp;&nbsp;
                                     <span>Twitter</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="https://web.facebook.com/bornowomen/">
+                                <a class="flex items-center py-1" href="#">
                                     <span><i class="fa-brands fa-facebook text-xl"></i></span> &nbsp;&nbsp;
                                     <span>Facebook</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="https://www.linkedin.com/company/bowdi/">
+                                <a class="flex items-center py-1" href="#">
                                     <span><i class="fa-brands fa-linkedin text-xl"></i></span> &nbsp;&nbsp;
                                     <span>LinkedIn</span>
                                 </a>
@@ -197,6 +222,7 @@
                 </footer>
             </div>
         </div>
+        
         <script src="{{ asset('js/front.js') }}"></script>
     </body>
 </html>
